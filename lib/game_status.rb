@@ -26,7 +26,9 @@ WIN_COMBINATIONS = [
       win_index_2 = win_combination[1]
       win_index_3 = win_combination[2]
       
-      board[win_index_1] == board[win_index_2] && board[win_index_2] == board[win_index_3] && board[win_index_1] != " "
+      board[win_index_1] == board[win_index_2] &&
+      board[win_index_2] == board[win_index_3] &&
+      board[win_index_1] != " "
     end
   end
   
