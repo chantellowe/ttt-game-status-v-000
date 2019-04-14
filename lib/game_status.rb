@@ -32,5 +32,5 @@ WIN_COMBINATIONS = [
   
   
   def full?(board)
-    board.none? { |position| position_taken?(board, index) }
+    board.none? { |position| position == " " }
   end
