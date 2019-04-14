@@ -50,6 +50,8 @@ WIN_COMBINATIONS = [
   
   
   def winner?(board)
+    win_combination = won?(board)
+    winning_location = 
     board[winning_location]
   end
   
