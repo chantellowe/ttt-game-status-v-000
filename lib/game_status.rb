@@ -45,3 +45,12 @@ WIN_COMBINATIONS = [
     won?(board) || draw?(board)
   end
   
+  
+  def winner?(board)
+    
+  end
+  
+  
+  
+  
+  
